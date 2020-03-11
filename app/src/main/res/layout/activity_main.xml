@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/lab_numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#235F5252"
+            android:fontFamily="sans-serif-light"
+            android:padding="15dp"
+            android:text="@string/numero"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@android:color/holo_red_light"
+            android:textFontWeight="19"
+            android:textSize="18sp"
+            android:textStyle="bold" tools:targetApi="p" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/num"
+            android:inputType="phone"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="#C728E4" tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/lab_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#235F5252"
+            android:fontFamily="sans-serif-light"
+            android:gravity="clip_horizontal"
+            android:lineSpacingExtra="8sp"
+            android:padding="15dp"
+            android:text="@string/your_text"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/sms"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/sms"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:labelFor="@id/lab_text"
+            android:lines="5"
+            android:textColor="#5F12FD" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:text="@string/send"
+            android:textColor="#F5F5F5"
+            android:textSize="24sp" />
+    </LinearLayout>

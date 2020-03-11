@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SendSms</string>
+    <string name="numero">Numéro de téléphone</string>
+    <string name="num">066666666</string>
+    <string name="sms">Your SMS</string>
+    <string name="send">Send</string>
+    <string name="numero_hint">0699999999</string>
+    <string name="your_text">Your text</string>
+    <string name="buttonSend">Send</string>
+</resources>
